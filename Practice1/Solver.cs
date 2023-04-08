@@ -134,9 +134,9 @@ public class Solver
     public void Task12()
     {
         PrintTaskHeader(12);
-        long x1 = 10000, x2 = 100000;
-        byte sum = (byte)(x1 + x2);
-        Console.WriteLine("Сума двох змінних типу long в byte: " + sum);
+        long x1 = 100, x2 = 100;
+        byte sum = (byte)(x1 * x2);
+        Console.WriteLine("Добуток двох змінних типу long в byte: " + sum);
     }
 
     private void PrintTaskHeader(int number)
